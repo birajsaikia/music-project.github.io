@@ -1,554 +1,756 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="majorprojecthome.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./majorprojecthome.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
     <title>Music Player</title>
-    <link rel="icon" type="image/png" href="https://pbs.twimg.com/profile_images/1345832411704168453/XnjL0euC_400x400.jpg">
-</head>
-<body>
-    
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://pbs.twimg.com/profile_images/1345832411704168453/XnjL0euC_400x400.jpg"
+    />
+  </head>
+  <body>
     <section id="header">
-        <div id="header-div1">
-             <div><img src="https://music-player-coding-ninjas.vercel.app/logo.png" alt=""></div>
-             <div id="fsv"><p>favorites</p></div>
+      <div id="header-div1">
+        <div>
+          <img
+            src="https://music-player-coding-ninjas.vercel.app/logo.png"
+            alt=""
+          />
         </div>
-       
-        <div id="header-div2">
-            <div id="search">
-                <div id="img1">
-                    <i class="fas fa-search"></i>
-                </div>
-                <div id="input">
-                    <form action="">
-                        <input type="search" placeholder="search...">
-                    </form>
-                </div>
-                <div id="botton">
-                   <button type="submit"><i class="fas fa-microphone"></i></button>
-                </div>
-            </div>
-            <div id="search2">
+        <div id="fsv"><p>favorites</p></div>
+      </div>
 
-            </div>
-            <div id="bell-icon">
-                <i class="fas fa-bell"></i>
-                
-            </div>
-            <div id="acound">
-                <img src="https://i.ndtvimg.com/i/2015-08/vidyut-jamwal_630x450_41439367316.jpg" alt="">
-            </div>
+      <div id="header-div2">
+        <div id="search">
+          <div id="img1">
+            <i class="fas fa-search"></i>
+          </div>
+          <div id="input">
+            <form action="">
+              <input type="search" placeholder="search..." />
+            </form>
+          </div>
+          <div id="botton">
+            <button type="submit"><i class="fas fa-microphone"></i></button>
+          </div>
         </div>
-        d
-    </section> 
-    <footer>
-        <div class="activesong">
-            <div id="sgimg">
-                <img src="https://images.hungama.com/c/1/f6e/f02/59483111/59483111_300x300.jpg">
-            </div>
-            <div class="sgdesc">
-                <div>
-                    GALIYAAN
-                </div>
-                <div id="rm">
-                    ANKIT TIWARI
-                </div>
-            </div>
-            <div class="fticon">
-                <span>
-                    <i class="far fa-heart"></i>
-                </span>
-                <span>
-                    <i class="fas fa-ban"></i>
-                </span>
-            </div>
+        <div id="search2"></div>
+        <div id="bell-icon">
+          <i class="fas fa-bell"></i>
         </div>
-        <div class="player">
-            
-            <audio controls>
-                <!-- <input type="range"> -->
-                <source src="audio/music.mp3" type="audio/mp3">
-            </audio> 
+        <div id="acound">
+          <img
+            src="https://i.ndtvimg.com/i/2015-08/vidyut-jamwal_630x450_41439367316.jpg"
+            alt=""
+          />
         </div>
-        <div class="ext">
-            <div> <i class="fas fa-list-ul"></i></div>
-            <div> <i class="fa fa-eject"></i></div>
-            <div><i class="fa fa-music" ></i></div>
-            <div><i class="fas fa-random"></i></div>
-            <div><i class="fas fa-redo"></i></div>
-        </div>
-    </footer>  
-    <section id="main-contain">
-        <aside class="Adiv  one">
-            <div class="mood flex">
-                <img src="https://a10.gaanacdn.com/images/albums/90/2983190/crop_480x480_2983190.jpg" alt="">
-                <img src="https://i.scdn.co/image/ab67616d0000b27396346a0b44bef2fbd969f1c6" alt="">
-                <img src="https://i.scdn.co/image/ab67616d0000b2732ad3d05240401b7ca33b2700" alt="">
-            </div>
-            <h3>Latest Release</h3>
-            <div id="lastest" class="flex">
-                
-                <div class="flex Release">
-                    <img src="https://c.saavncdn.com/272/Because-Of-The-Times-English-2018-20180917193314-500x500.jpg" alt="">
-                    <span class="biraj">
-                        <p>
-                             biraj
-                        </p>
-                        <p class="aug">
-                            AUG 11,2017
-                        </p>
-                    </span>
-                    <span>
-                        <div class="menu-nav">
-                
-                            <div class="dropdown-container" tabindex="-1">
-                              <div class="three-dots"></div>
-                              <div class="dropdown">
-                                <a href="#"><div><i class="fas fa-play"></i>&nbsp;&nbsp;&nbsp;Play Now</div></a><hr>
-                                <a href="#"><div><i class="fas fa-plus"></i>&nbsp;&nbsp;&nbsp;Add to Favorite</div></a><hr>
-                                <a href="#"><div><i class="fas fa-info-circle"></i>&nbsp;&nbsp;&nbsp;Get Info</div></a>
-                              </div>
-                            </div>
-                          </div>
-                        <p class="time">4:44</p>
-                    </span>
-                </div>
-                <div class="flex Release">
-                    <img src="https://c.saavncdn.com/272/Because-Of-The-Times-English-2018-20180917193314-500x500.jpg" alt="">
-                    <span class="biraj">
-                        <p>
-                             biraj
-                        </p>
-                        <p class="aug">
-                            AUG 11,2017
-                        </p>
-                    </span>
-                    <span>
-                        <div class="menu-nav">
-                
-                            <div class="dropdown-container" tabindex="-1">
-                              <div class="three-dots"></div>
-                              <div class="dropdown">
-                                <a href="#"><div><i class="fas fa-play"></i>&nbsp;&nbsp;&nbsp;Play Now</div></a><hr>
-                                <a href="#"><div><i class="fas fa-plus"></i>&nbsp;&nbsp;&nbsp;Add to Favorite</div></a><hr>
-                                <a href="#"><div><i class="fas fa-info-circle"></i>&nbsp;&nbsp;&nbsp;Get Info</div></a>
-                              </div>
-                            </div>
-                          </div>
-                        <p class="time">4:44</p>
-                    </span>
-                </div>
-            </div>
-                <div id="lastest" class="flex">
-                <div class="flex Release">
-                    <img src="https://c.saavncdn.com/272/Because-Of-The-Times-English-2018-20180917193314-500x500.jpg" alt="">
-                    <span class="biraj">
-                        <p>
-                             biraj
-                        </p>
-                        <p class="aug">
-                            AUG 11,2017
-                        </p>
-                    </span>
-                    <span>
-                        <div class="menu-nav">
-                
-                            <div class="dropdown-container" tabindex="-1">
-                              <div class="three-dots"></div>
-                              <div class="dropdown">
-                                <a href="#"><div><i class="fas fa-play"></i>&nbsp;&nbsp;&nbsp;Play Now</div></a><hr>
-                                <a href="#"><div><i class="fas fa-plus"></i>&nbsp;&nbsp;&nbsp;Add to Favorite</div></a><hr>
-                                <a href="#"><div><i class="fas fa-info-circle"></i>&nbsp;&nbsp;&nbsp;Get Info</div></a>
-                              </div>
-                            </div>
-                          </div>
-                        <p class="time">4:44</p>
-                    </span>
-                </div>
-                <div class="flex Release">
-                    <img src="https://c.saavncdn.com/272/Because-Of-The-Times-English-2018-20180917193314-500x500.jpg" alt="">
-                    <span class="biraj">
-                        <p>
-                             biraj
-                        </p>
-                        <p class="aug">
-                            AUG 11,2017
-                        </p>
-                    </span>
-                    <span>
-                        <div class="menu-nav">
-                
-                            <div class="dropdown-container" tabindex="-1">
-                              <div class="three-dots"></div>
-                              <div class="dropdown">
-                                <a href="#"><div><i class="fas fa-play"></i>&nbsp;&nbsp;&nbsp;Play Now</div></a><hr>
-                                <a href="#"><div><i class="fas fa-plus"></i>&nbsp;&nbsp;&nbsp;Add to Favorite</div></a><hr>
-                                <a href="#"><div><i class="fas fa-info-circle"></i>&nbsp;&nbsp;&nbsp;Get Info</div></a>
-                              </div>
-                            </div>
-                          </div>
-                        <p class="time">4:44</p>
-                    </span>
-                </div>
-               
-            </div>
-            
-            <div id="Artist">
-                <h3>Popular Artist</h3>
-            <div class="popular">
-                <div class="popolar1">
-                      <div class="img">
-                        <a href="codingNinjasproject.html">
-                        <img src="https://pbs.twimg.com/profile_images/1571096890938212352/Pud9XpLp_400x400.jpg" alt="" class="image12">
-                        <div class="iback"><i class="fas fa-play"></i></div></a>
-                      </div>
-                      <div class="divp"><p>Eminem</p></div>
-                      
-                </div>
-                <div class="popolar1">
-                    <div class="img">
-                        <a href="codingNinjasproject.html">
-                        <img src="https://qph.cf2.quoracdn.net/main-thumb-626074823-200-qsuweirvufblpeosprccahjjcyfbkrle.jpeg" alt="" class="image12">
-                        <div class="iback"><i class="fas fa-play"></i></div></a>
-                    </div>
-                    <div class="divp"><p>XXXTantaction</p></div>
-                </div>  
-                <div class="popolar1">
-                    <div class="img">
-                        <a href="codingNinjasproject.html">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0pWD1AfsIwn8P_HmITwkeNJn3K9q9FntKuSw1MqC2-v5PQOUu_4SHPqS7Ei1FhddeMk&usqp=CAU" alt="" class="image12">
-                        <div class="iback"><i class="fas fa-play"></i></div></a>
-                    </div>
-                    <div class="divp"><p>Imagine Dragons</p></div>
-                </div>
-                <div class="popolar1">
-                    <div class="img">
-                        <a href="codingNinjasproject.html">
-                        <img src="https://i.scdn.co/image/ab677762000056b8865005d18bcf8952a24f333f" alt="" class="image12">
-                        <div class="iback"><i class="fas fa-play"></i></div></a>
-                    </div>
-                    <div class="divp"><p>Juice Wrld</p></div>
-                </div>
-                <div class="popolar1">
-                    <div class="img">
-                        <a href="codingNinjasproject.html">
-                        <img src="https://a10.gaanacdn.com/gn_img/artists/Dk9KNk23Bx/k9KNqJJbBx/size_xl_1638898900.webp" alt="" class="image12">
-                         <div class="iback"><i class="fas fa-play"></i></div></a>
-                    </div>
-                    <div class="divp"><p>Arjit Singh</p></div>
-                </div>
-                <div class="popolar1">
-                    <div class="img">
-                        <a href="codingNinjasproject.html">
-                        <img src="https://media.gq.com/photos/56bcb218cdf2db6945d2ef93/master/pass/bieber-coverstory-square.jpg" alt="" class="image12">
-                         <div class="iback"><i class="fas fa-play"></i></div></a>
-                    </div>
-                    <div class="divp"><p>Justin Bieber</p></div>
-                </div>
-               
-            </div>
-            </div>
-             <div class="station flex">
-                    <div id="station1">
-                        <div id="div11"></div>
-                        <div id="div12"></div>
-                        <div id="div13"> 
-                            <i class="fas fa-compact-disc"></i>
-                            <p>Music Stations</p>
-                        </div>
-                    </div>
-                    <div id="station2" class="iii"><p>Love</p></div>
-                    <div id="station3" class="iii"> <p>Retro</p></div>
-                    <div id="station4" class="iii"><p>Chill</p></div>
-                    <div id="station5" class="iii"><p>Workout</p></div>
-                    <div id="station6" class="iii"><p>rock</p> </div>
-                    <div id="station7" class="iii"><p>pop</p></div>
-                </div>
-                <div class="themes2">
-                    <div class="outdiv">
-                        <div class="indiv">
-                            <span>party</span>
-                        </div>
-                    </div>
-                    <div class="outdiv">
-                        <div class="indiv">
-                            <span>Electronic</span>
-                        </div>
-                    </div>
-                    <div class="outdiv">
-                        <div class="indiv">
-                            <span>Travel</span>
-                        </div>
-                    </div>
-                </div>
-                <div id="english">
-                    <h3>Latest English</h3>
-                <div class="flex latest">
-                    <div><img src="https://static.javatpoint.com/top10-technologies/images/top-10-english-singers8.jpg" alt=""><p>Sorry</p><p class="date">AUG 11,2017</p></div>
-                    <div><img src="https://shortshayari.in/wp-content/uploads/2022/11/whatsapp-dp-100.webp" alt=""><p>Believer</p><p class="date">AUG 11,2017</p></div>
-                    <div><img src="https://i.pinimg.com/736x/52/a8/1c/52a81c8b74e5c7870e6a9c4a52756498.jpg" alt="" ><p>Moonlight</p><p class="date">AUG 11,2017</p></div>
-                    <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMKuvNoJLo1bZt2maWt_hl0V8M9Cq9A8yM2Q8a7sPI29nsCwp8OeFrdCRCw28d2hjztCM&usqp=CAU" alt=""><p>Intentions</p><p class="date">AUG 11,2017</p></div>
-                    <div><img src="https://shortshayari.in/wp-content/uploads/2023/01/whatsapp-dp.webp" alt=""><p>Hate Me</p><p class="date">AUG 11,2017</p></div>
-                    <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjze1oYQ0x5Lsg_oA1eVkEZABxRBockYlTRFEWCXNnV8pGTGbHLs5N5xs2gXS3bGgIqpI&usqp=CAU" alt=""><p>Not Afraid</p><p class="date">AUG 11,2017</p></div>
-    
-                </div>
-                </div>
-                <div id="hindi">
-                    <h3>Latest Hindi</h3>
-                <div class="flex latest">
-                    <div><img src="https://static.javatpoint.com/top10-technologies/images/top-10-english-singers8.jpg" alt=""><p>O Re Priya</p><p class="date">AUG 11,2017</p></div>
-                    <div><img src="https://shortshayari.in/wp-content/uploads/2022/11/whatsapp-dp-100.webp" alt=""><p> Pasoori</p><p class="date">AUG 11,2017</p></div>
-                    <div><img src="https://i.pinimg.com/736x/52/a8/1c/52a81c8b74e5c7870e6a9c4a52756498.jpg" alt="" ><p>IK TU HI</p><p class="date">AUG 11,2017</p></div>
-                    <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMKuvNoJLo1bZt2maWt_hl0V8M9Cq9A8yM2Q8a7sPI29nsCwp8OeFrdCRCw28d2hjztCM&usqp=CAU" alt=""><p>Baazigar</p><p class="date">AUG 11,2017</p></div>
-                    <div><img src="https://shortshayari.in/wp-content/uploads/2023/01/whatsapp-dp.webp" alt=""><p>Lut Gaya</p><p class="date">AUG 11,2017</p></div>
-                    <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjze1oYQ0x5Lsg_oA1eVkEZABxRBockYlTRFEWCXNnV8pGTGbHLs5N5xs2gXS3bGgIqpI&usqp=CAU" alt=""><p>Rabba Janda</p><p class="date">AUG 11,2017</p></div>
-    
-                </div>
-                </div>
-        </aside>
-        <aside class="Bdiv two">
-            <div class="queue flex">
-                  <h2>Queue</h2>
-                  <p>Queue</p>
-                  <div class="head">
-                    <div class="menu-nav">
-                    <div class="dropdown-container" tabindex="-1">
-                        <div class="three-dots2"></div>
-                        <div class="dropdown">
-                            <a href="#"><div><i class="fas fa-play"></i>&nbsp;&nbsp;&nbsp;Play Now</div></a><hr>
-                            <a href="#"><div><i class="fas fa-plus"></i>&nbsp;&nbsp;&nbsp;Add to Favorite</div></a>
-                            
-                        </div>
-                      </div>
-                  </div>
-                  </div>
-            </div>
-            <div class="queueitem flex">
-                <p>01</p>
-                <img src="https://plus.unsplash.com/premium_photo-1676294422836-88c0afd35e36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVzaWMlMjB3YWxscGFwZXJ8ZW58MHx8MHx8&w=1000&q=80" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>02</p>
-                <img src="https://i.pinimg.com/originals/8b/09/f3/8b09f3087d99c02a25e1220e42870f40.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>03</p>
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/011/778/457/small_2x/music-logo-icon-free-vector.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>04</p>
-                <img src="https://cdn.pixabay.com/photo/2021/01/29/08/10/musician-5960112__340.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>05</p>
-                <img src="https://cdn.pixabay.com/photo/2019/04/04/18/50/cassette-4103530__340.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>06</p>
-                <img src="https://i.pinimg.com/originals/df/68/61/df68616f9ac5be91a090ffb8ca111859.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>07</p>
-                <img src="https://plus.unsplash.com/premium_photo-1676294422836-88c0afd35e36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVzaWMlMjB3YWxscGFwZXJ8ZW58MHx8MHx8&w=1000&q=80" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>08</p>
-                <img src="https://i.pinimg.com/originals/8b/09/f3/8b09f3087d99c02a25e1220e42870f40.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>09</p>
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/011/778/457/small_2x/music-logo-icon-free-vector.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>10</p>
-                <img src="https://cdn.pixabay.com/photo/2021/01/29/08/10/musician-5960112__340.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>11</p>
-                <img src="https://cdn.pixabay.com/photo/2019/04/04/18/50/cassette-4103530__340.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>12</p>
-                <img src="https://i.pinimg.com/originals/df/68/61/df68616f9ac5be91a090ffb8ca111859.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>13</p>
-                <img src="https://plus.unsplash.com/premium_photo-1676294422836-88c0afd35e36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVzaWMlMjB3YWxscGFwZXJ8ZW58MHx8MHx8&w=1000&q=80" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>14</p>
-                <img src="https://i.pinimg.com/originals/8b/09/f3/8b09f3087d99c02a25e1220e42870f40.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>15</p>
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/011/778/457/small_2x/music-logo-icon-free-vector.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>16</p>
-                <img src="https://cdn.pixabay.com/photo/2021/01/29/08/10/musician-5960112__340.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>17</p>
-                <img src="https://cdn.pixabay.com/photo/2019/04/04/18/50/cassette-4103530__340.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>18</p>
-                <img src="https://i.pinimg.com/originals/df/68/61/df68616f9ac5be91a090ffb8ca111859.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>19</p>
-                <img src="https://plus.unsplash.com/premium_photo-1676294422836-88c0afd35e36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVzaWMlMjB3YWxscGFwZXJ8ZW58MHx8MHx8&w=1000&q=80" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            <div class="queueitem flex">
-                <p>20</p>
-                <img src="https://i.pinimg.com/originals/8b/09/f3/8b09f3087d99c02a25e1220e42870f40.jpg" alt="">
-                <div>
-                    <h4>
-                        Margi
-                    </h4>
-                    <p>Else</p>
-                </div>
-                <i class="far fa-heart"></i>
-            </div>
-            
-           
-        </aside>
+      </div>
+      d
     </section>
-</body>
+    <footer>
+      <div class="activesong">
+        <div id="sgimg">
+          <img
+            src="https://images.hungama.com/c/1/f6e/f02/59483111/59483111_300x300.jpg"
+          />
+        </div>
+        <div class="sgdesc">
+          <div>GALIYAAN</div>
+          <div id="rm">ANKIT TIWARI</div>
+        </div>
+        <div class="fticon">
+          <span>
+            <i class="far fa-heart"></i>
+          </span>
+          <span>
+            <i class="fas fa-ban"></i>
+          </span>
+        </div>
+      </div>
+      <div class="player">
+        <audio controls>
+          <!-- <input type="range"> -->
+          <source src="audio/music.mp3" type="audio/mp3" />
+        </audio>
+      </div>
+      <div class="ext">
+        <div><i class="fas fa-list-ul"></i></div>
+        <div><i class="fa fa-eject"></i></div>
+        <div><i class="fa fa-music"></i></div>
+        <div><i class="fas fa-random"></i></div>
+        <div><i class="fas fa-redo"></i></div>
+      </div>
+    </footer>
+    <section id="main-contain">
+      <aside class="Adiv one">
+        <div class="mood flex">
+          <img
+            src="https://a10.gaanacdn.com/images/albums/90/2983190/crop_480x480_2983190.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.scdn.co/image/ab67616d0000b27396346a0b44bef2fbd969f1c6"
+            alt=""
+          />
+          <img
+            src="https://i.scdn.co/image/ab67616d0000b2732ad3d05240401b7ca33b2700"
+            alt=""
+          />
+        </div>
+        <h3>Latest Release</h3>
+        <div id="lastest" class="flex">
+          <div class="flex Release">
+            <img
+              src="https://c.saavncdn.com/272/Because-Of-The-Times-English-2018-20180917193314-500x500.jpg"
+              alt=""
+            />
+            <span class="biraj">
+              <p>biraj</p>
+              <p class="aug">AUG 11,2017</p>
+            </span>
+            <span>
+              <div class="menu-nav">
+                <div class="dropdown-container" tabindex="-1">
+                  <div class="three-dots"></div>
+                  <div class="dropdown">
+                    <a href="#"
+                      ><div>
+                        <i class="fas fa-play"></i>&nbsp;&nbsp;&nbsp;Play Now
+                      </div></a
+                    >
+                    <hr />
+                    <a href="#"
+                      ><div>
+                        <i class="fas fa-plus"></i>&nbsp;&nbsp;&nbsp;Add to
+                        Favorite
+                      </div></a
+                    >
+                    <hr />
+                    <a href="#"
+                      ><div>
+                        <i class="fas fa-info-circle"></i>&nbsp;&nbsp;&nbsp;Get
+                        Info
+                      </div></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <p class="time">4:44</p>
+            </span>
+          </div>
+          <div class="flex Release">
+            <img
+              src="https://c.saavncdn.com/272/Because-Of-The-Times-English-2018-20180917193314-500x500.jpg"
+              alt=""
+            />
+            <span class="biraj">
+              <p>biraj</p>
+              <p class="aug">AUG 11,2017</p>
+            </span>
+            <span>
+              <div class="menu-nav">
+                <div class="dropdown-container" tabindex="-1">
+                  <div class="three-dots"></div>
+                  <div class="dropdown">
+                    <a href="#"
+                      ><div>
+                        <i class="fas fa-play"></i>&nbsp;&nbsp;&nbsp;Play Now
+                      </div></a
+                    >
+                    <hr />
+                    <a href="#"
+                      ><div>
+                        <i class="fas fa-plus"></i>&nbsp;&nbsp;&nbsp;Add to
+                        Favorite
+                      </div></a
+                    >
+                    <hr />
+                    <a href="#"
+                      ><div>
+                        <i class="fas fa-info-circle"></i>&nbsp;&nbsp;&nbsp;Get
+                        Info
+                      </div></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <p class="time">4:44</p>
+            </span>
+          </div>
+        </div>
+        <div id="lastest" class="flex">
+          <div class="flex Release">
+            <img
+              src="https://c.saavncdn.com/272/Because-Of-The-Times-English-2018-20180917193314-500x500.jpg"
+              alt=""
+            />
+            <span class="biraj">
+              <p>biraj</p>
+              <p class="aug">AUG 11,2017</p>
+            </span>
+            <span>
+              <div class="menu-nav">
+                <div class="dropdown-container" tabindex="-1">
+                  <div class="three-dots"></div>
+                  <div class="dropdown">
+                    <a href="#"
+                      ><div>
+                        <i class="fas fa-play"></i>&nbsp;&nbsp;&nbsp;Play Now
+                      </div></a
+                    >
+                    <hr />
+                    <a href="#"
+                      ><div>
+                        <i class="fas fa-plus"></i>&nbsp;&nbsp;&nbsp;Add to
+                        Favorite
+                      </div></a
+                    >
+                    <hr />
+                    <a href="#"
+                      ><div>
+                        <i class="fas fa-info-circle"></i>&nbsp;&nbsp;&nbsp;Get
+                        Info
+                      </div></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <p class="time">4:44</p>
+            </span>
+          </div>
+          <div class="flex Release">
+            <img
+              src="https://c.saavncdn.com/272/Because-Of-The-Times-English-2018-20180917193314-500x500.jpg"
+              alt=""
+            />
+            <span class="biraj">
+              <p>biraj</p>
+              <p class="aug">AUG 11,2017</p>
+            </span>
+            <span>
+              <div class="menu-nav">
+                <div class="dropdown-container" tabindex="-1">
+                  <div class="three-dots"></div>
+                  <div class="dropdown">
+                    <a href="#"
+                      ><div>
+                        <i class="fas fa-play"></i>&nbsp;&nbsp;&nbsp;Play Now
+                      </div></a
+                    >
+                    <hr />
+                    <a href="#"
+                      ><div>
+                        <i class="fas fa-plus"></i>&nbsp;&nbsp;&nbsp;Add to
+                        Favorite
+                      </div></a
+                    >
+                    <hr />
+                    <a href="#"
+                      ><div>
+                        <i class="fas fa-info-circle"></i>&nbsp;&nbsp;&nbsp;Get
+                        Info
+                      </div></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <p class="time">4:44</p>
+            </span>
+          </div>
+        </div>
+
+        <div id="Artist">
+          <h3>Popular Artist</h3>
+          <div class="popular">
+            <div class="popolar1">
+              <div class="img">
+                <a href="codingNinjasproject.html">
+                  <img
+                    src="https://pbs.twimg.com/profile_images/1571096890938212352/Pud9XpLp_400x400.jpg"
+                    alt=""
+                    class="image12" />
+                  <div class="iback"><i class="fas fa-play"></i></div
+                ></a>
+              </div>
+              <div class="divp"><p>Eminem</p></div>
+            </div>
+            <div class="popolar1">
+              <div class="img">
+                <a href="codingNinjasproject.html">
+                  <img
+                    src="https://qph.cf2.quoracdn.net/main-thumb-626074823-200-qsuweirvufblpeosprccahjjcyfbkrle.jpeg"
+                    alt=""
+                    class="image12" />
+                  <div class="iback"><i class="fas fa-play"></i></div
+                ></a>
+              </div>
+              <div class="divp"><p>XXXTantaction</p></div>
+            </div>
+            <div class="popolar1">
+              <div class="img">
+                <a href="codingNinjasproject.html">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg0pWD1AfsIwn8P_HmITwkeNJn3K9q9FntKuSw1MqC2-v5PQOUu_4SHPqS7Ei1FhddeMk&usqp=CAU"
+                    alt=""
+                    class="image12" />
+                  <div class="iback"><i class="fas fa-play"></i></div
+                ></a>
+              </div>
+              <div class="divp"><p>Imagine Dragons</p></div>
+            </div>
+            <div class="popolar1">
+              <div class="img">
+                <a href="codingNinjasproject.html">
+                  <img
+                    src="https://i.scdn.co/image/ab677762000056b8865005d18bcf8952a24f333f"
+                    alt=""
+                    class="image12" />
+                  <div class="iback"><i class="fas fa-play"></i></div
+                ></a>
+              </div>
+              <div class="divp"><p>Juice Wrld</p></div>
+            </div>
+            <div class="popolar1">
+              <div class="img">
+                <a href="codingNinjasproject.html">
+                  <img
+                    src="https://a10.gaanacdn.com/gn_img/artists/Dk9KNk23Bx/k9KNqJJbBx/size_xl_1638898900.webp"
+                    alt=""
+                    class="image12" />
+                  <div class="iback"><i class="fas fa-play"></i></div
+                ></a>
+              </div>
+              <div class="divp"><p>Arjit Singh</p></div>
+            </div>
+            <div class="popolar1">
+              <div class="img">
+                <a href="codingNinjasproject.html">
+                  <img
+                    src="https://media.gq.com/photos/56bcb218cdf2db6945d2ef93/master/pass/bieber-coverstory-square.jpg"
+                    alt=""
+                    class="image12" />
+                  <div class="iback"><i class="fas fa-play"></i></div
+                ></a>
+              </div>
+              <div class="divp"><p>Justin Bieber</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="station flex">
+          <div id="station1">
+            <div id="div11"></div>
+            <div id="div12"></div>
+            <div id="div13">
+              <i class="fas fa-compact-disc"></i>
+              <p>Music Stations</p>
+            </div>
+          </div>
+          <div id="station2" class="iii"><p>Love</p></div>
+          <div id="station3" class="iii"><p>Retro</p></div>
+          <div id="station4" class="iii"><p>Chill</p></div>
+          <div id="station5" class="iii"><p>Workout</p></div>
+          <div id="station6" class="iii"><p>rock</p></div>
+          <div id="station7" class="iii"><p>pop</p></div>
+        </div>
+        <div class="themes2">
+          <div class="outdiv">
+            <div class="indiv">
+              <span>party</span>
+            </div>
+          </div>
+          <div class="outdiv">
+            <div class="indiv">
+              <span>Electronic</span>
+            </div>
+          </div>
+          <div class="outdiv">
+            <div class="indiv">
+              <span>Travel</span>
+            </div>
+          </div>
+        </div>
+        <div id="english">
+          <h3>Latest English</h3>
+          <div class="flex latest">
+            <div>
+              <img
+                src="https://static.javatpoint.com/top10-technologies/images/top-10-english-singers8.jpg"
+                alt=""
+              />
+              <p>Sorry</p>
+              <p class="date">AUG 11,2017</p>
+            </div>
+            <div>
+              <img
+                src="https://shortshayari.in/wp-content/uploads/2022/11/whatsapp-dp-100.webp"
+                alt=""
+              />
+              <p>Believer</p>
+              <p class="date">AUG 11,2017</p>
+            </div>
+            <div>
+              <img
+                src="https://i.pinimg.com/736x/52/a8/1c/52a81c8b74e5c7870e6a9c4a52756498.jpg"
+                alt=""
+              />
+              <p>Moonlight</p>
+              <p class="date">AUG 11,2017</p>
+            </div>
+            <div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMKuvNoJLo1bZt2maWt_hl0V8M9Cq9A8yM2Q8a7sPI29nsCwp8OeFrdCRCw28d2hjztCM&usqp=CAU"
+                alt=""
+              />
+              <p>Intentions</p>
+              <p class="date">AUG 11,2017</p>
+            </div>
+            <div>
+              <img
+                src="https://shortshayari.in/wp-content/uploads/2023/01/whatsapp-dp.webp"
+                alt=""
+              />
+              <p>Hate Me</p>
+              <p class="date">AUG 11,2017</p>
+            </div>
+            <div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjze1oYQ0x5Lsg_oA1eVkEZABxRBockYlTRFEWCXNnV8pGTGbHLs5N5xs2gXS3bGgIqpI&usqp=CAU"
+                alt=""
+              />
+              <p>Not Afraid</p>
+              <p class="date">AUG 11,2017</p>
+            </div>
+          </div>
+        </div>
+        <div id="hindi">
+          <h3>Latest Hindi</h3>
+          <div class="flex latest">
+            <div>
+              <img
+                src="https://static.javatpoint.com/top10-technologies/images/top-10-english-singers8.jpg"
+                alt=""
+              />
+              <p>O Re Priya</p>
+              <p class="date">AUG 11,2017</p>
+            </div>
+            <div>
+              <img
+                src="https://shortshayari.in/wp-content/uploads/2022/11/whatsapp-dp-100.webp"
+                alt=""
+              />
+              <p>Pasoori</p>
+              <p class="date">AUG 11,2017</p>
+            </div>
+            <div>
+              <img
+                src="https://i.pinimg.com/736x/52/a8/1c/52a81c8b74e5c7870e6a9c4a52756498.jpg"
+                alt=""
+              />
+              <p>IK TU HI</p>
+              <p class="date">AUG 11,2017</p>
+            </div>
+            <div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMKuvNoJLo1bZt2maWt_hl0V8M9Cq9A8yM2Q8a7sPI29nsCwp8OeFrdCRCw28d2hjztCM&usqp=CAU"
+                alt=""
+              />
+              <p>Baazigar</p>
+              <p class="date">AUG 11,2017</p>
+            </div>
+            <div>
+              <img
+                src="https://shortshayari.in/wp-content/uploads/2023/01/whatsapp-dp.webp"
+                alt=""
+              />
+              <p>Lut Gaya</p>
+              <p class="date">AUG 11,2017</p>
+            </div>
+            <div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjze1oYQ0x5Lsg_oA1eVkEZABxRBockYlTRFEWCXNnV8pGTGbHLs5N5xs2gXS3bGgIqpI&usqp=CAU"
+                alt=""
+              />
+              <p>Rabba Janda</p>
+              <p class="date">AUG 11,2017</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <aside class="Bdiv two">
+        <div class="queue flex">
+          <h2>Queue</h2>
+          <p>Queue</p>
+          <div class="head">
+            <div class="menu-nav">
+              <div class="dropdown-container" tabindex="-1">
+                <div class="three-dots2"></div>
+                <div class="dropdown">
+                  <a href="#"
+                    ><div>
+                      <i class="fas fa-play"></i>&nbsp;&nbsp;&nbsp;Play Now
+                    </div></a
+                  >
+                  <hr />
+                  <a href="#"
+                    ><div>
+                      <i class="fas fa-plus"></i>&nbsp;&nbsp;&nbsp;Add to
+                      Favorite
+                    </div></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="queueitem flex">
+          <p>01</p>
+          <img
+            src="https://plus.unsplash.com/premium_photo-1676294422836-88c0afd35e36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVzaWMlMjB3YWxscGFwZXJ8ZW58MHx8MHx8&w=1000&q=80"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>02</p>
+          <img
+            src="https://i.pinimg.com/originals/8b/09/f3/8b09f3087d99c02a25e1220e42870f40.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>03</p>
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/011/778/457/small_2x/music-logo-icon-free-vector.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>04</p>
+          <img
+            src="https://cdn.pixabay.com/photo/2021/01/29/08/10/musician-5960112__340.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>05</p>
+          <img
+            src="https://cdn.pixabay.com/photo/2019/04/04/18/50/cassette-4103530__340.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>06</p>
+          <img
+            src="https://i.pinimg.com/originals/df/68/61/df68616f9ac5be91a090ffb8ca111859.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>07</p>
+          <img
+            src="https://plus.unsplash.com/premium_photo-1676294422836-88c0afd35e36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVzaWMlMjB3YWxscGFwZXJ8ZW58MHx8MHx8&w=1000&q=80"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>08</p>
+          <img
+            src="https://i.pinimg.com/originals/8b/09/f3/8b09f3087d99c02a25e1220e42870f40.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>09</p>
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/011/778/457/small_2x/music-logo-icon-free-vector.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>10</p>
+          <img
+            src="https://cdn.pixabay.com/photo/2021/01/29/08/10/musician-5960112__340.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>11</p>
+          <img
+            src="https://cdn.pixabay.com/photo/2019/04/04/18/50/cassette-4103530__340.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>12</p>
+          <img
+            src="https://i.pinimg.com/originals/df/68/61/df68616f9ac5be91a090ffb8ca111859.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>13</p>
+          <img
+            src="https://plus.unsplash.com/premium_photo-1676294422836-88c0afd35e36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVzaWMlMjB3YWxscGFwZXJ8ZW58MHx8MHx8&w=1000&q=80"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>14</p>
+          <img
+            src="https://i.pinimg.com/originals/8b/09/f3/8b09f3087d99c02a25e1220e42870f40.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>15</p>
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/011/778/457/small_2x/music-logo-icon-free-vector.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>16</p>
+          <img
+            src="https://cdn.pixabay.com/photo/2021/01/29/08/10/musician-5960112__340.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>17</p>
+          <img
+            src="https://cdn.pixabay.com/photo/2019/04/04/18/50/cassette-4103530__340.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>18</p>
+          <img
+            src="https://i.pinimg.com/originals/df/68/61/df68616f9ac5be91a090ffb8ca111859.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>19</p>
+          <img
+            src="https://plus.unsplash.com/premium_photo-1676294422836-88c0afd35e36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVzaWMlMjB3YWxscGFwZXJ8ZW58MHx8MHx8&w=1000&q=80"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+        <div class="queueitem flex">
+          <p>20</p>
+          <img
+            src="https://i.pinimg.com/originals/8b/09/f3/8b09f3087d99c02a25e1220e42870f40.jpg"
+            alt=""
+          />
+          <div>
+            <h4>Margi</h4>
+            <p>Else</p>
+          </div>
+          <i class="far fa-heart"></i>
+        </div>
+      </aside>
+    </section>
+  </body>
 </html>
